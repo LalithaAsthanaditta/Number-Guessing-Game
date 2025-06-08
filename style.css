@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+input[type="number"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #2575fc;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a5edb;
+}
+
+select {
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+#message {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#attemptsLeft {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#confetti-canvas {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
